@@ -9,12 +9,12 @@ This demo app will provide a command that will help users test their integration
 
 ```dotenv
 ### SMSTO Credentials
-SMSTO_AUTH_MODE=api_key
-SMSTO_API_KEY=sjkdhfgsdfsdf
+SMSTO_AUTH_MODE=api_key # OR oauth
+SMSTO_API_KEY=sjkdhfgsdfsdf # Pass your own API Key
 
 ## Comment above if using oauth
-SMSTO_CLIENT_ID=sdfdsfsdfsdfsd
-SMSTO_CLIENT_SECRET=aksdjashkdjashdkjashdkjhasgdjk
+SMSTO_CLIENT_ID=sdfdsfsdfsdfsd # Pass your own Client ID
+SMSTO_CLIENT_SECRET=aksdjashkdjashdkjashdkjhasgdjk # Pass your own Client Secret
 
 ### SMSTO Demo Data
 SMSTO_TEST_SMS=true
