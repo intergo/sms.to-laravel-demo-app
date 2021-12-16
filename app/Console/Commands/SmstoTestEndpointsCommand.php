@@ -11,7 +11,6 @@ use Intergo\SmsTo\Facades\SmsToTeam;
 use Intergo\SmsTo\Module\Sms\Message\CampaignMessage;
 use Intergo\SmsTo\Module\Sms\Message\PersonalizedMessage;
 use Intergo\SmsTo\Module\Sms\Message\SingleMessage;
-use function Swoole\Coroutine\Http\get;
 
 class SmstoTestEndpointsCommand extends Command
 {
